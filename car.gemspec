@@ -6,16 +6,16 @@ Gem::Specification.new do |spec|
   spec.authors       = ["nikolatriki"]
   spec.email         = ["kjofte@yahoo.com"]
 
-  spec.summary       = %q{This is a car gem.}
-  spec.description   = %q{This is longer description of the summary of the car gem.}
-  spec.homepage      = http://www.google.com
+  spec.summary       = %q{'This is a car gem'}
+  spec.description   = %q{'This is longer description of the summary of the car gem'}
+  spec.homepage      = "https://www.google.com"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.metadata["allowed_push_host"] = "http://www.yahoo.com"
+  spec.metadata["allowed_push_host"] = "https://www.yahoo.com"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "http://www.yahoo.com"
-  spec.metadata["changelog_uri"] = "http://www.yahoo.com"
+  spec.metadata["source_code_uri"] = "https://www.yahoo.com"
+  spec.metadata["changelog_uri"] = "https://www.yahoo.com"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
