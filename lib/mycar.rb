@@ -5,11 +5,15 @@ module Car
         attr_accessor :color, :car_speed
         attr_reader :year
 
-        def initialize(year, color, model)
+        def initialize(year, model, color)
             @year = year
-            @color = color
             @model = model
-            @car_speed =0
+            @color = color
+            @car_speed = 0
+        end
+
+        def speed_up(arg1)
+            @car_speed += arg1
         end
     end
 end
