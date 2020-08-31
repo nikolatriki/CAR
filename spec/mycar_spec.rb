@@ -49,4 +49,5 @@ RSpec.describe Car::MyCar do
     volvo.add_defect('oil leak')
     expect(volvo.service_info).to eq('Detected defects: water pump failure, oil leak')
   end
+  
 end
